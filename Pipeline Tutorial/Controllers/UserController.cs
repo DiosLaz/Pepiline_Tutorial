@@ -13,5 +13,11 @@ namespace Pipeline_Tutorial.Controllers
         {
             return( Ok(username));
         }
+
+        [HttpGet("/GetUserById/{id}")]
+        public IActionResult GetUserById(string id)
+        {
+            return (Ok(@$"id of this users is: {id}"));
+        }
     }
 }
