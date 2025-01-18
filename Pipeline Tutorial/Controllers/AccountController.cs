@@ -14,16 +14,16 @@ namespace Pipeline_Tutorial.Controllers
         }
 
         [HttpGet("/Login")]
-        public IActionResult Login()
+        public IActionResult Logins()
         {
-            return Ok("Works fine");
+            return Ok("Works fines login updated");
         }
 
 
         [HttpGet("/Register")]
-        public IActionResult Register()
+        public IActionResult Registers()
         {
-            return Ok("Works fine");
+            return Ok("Works fine, register updated");
         }
     }
 }
