@@ -12,7 +12,16 @@ namespace Pipeline_Tutorial.Controllers
         {
             
         }
+
+        [HttpGet]
         public async Task<IActionResult> Login()
+        {
+            return Ok("Works fine");
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> Register()
         {
             return Ok("Works fine");
         }
